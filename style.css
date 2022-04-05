@@ -14,3 +14,9 @@ body{
 article{
     border: 3px solid;
 }
+aside,section{
+    border: 3px solid;
+}
+main{
+    border: 3px red
+}
