@@ -6,10 +6,16 @@ body{
     top: 0px;
     position: fixed;
     border: 3px solid;
-    width:100%
+    width:100%;
+    background-color: slateblue;
+    text-align: center;
 }
 #rodape{
     border: 3px solid;
+    background-color: slateblue;
+    text-align: center;
+    font-weight: bold;
+
 }
 article{
     border: 3px solid;
@@ -17,6 +23,18 @@ article{
 aside,section{
     border: 3px solid;
 }
-main{
-    border: 3px red
+.float{
+    margin-top: 150px;
+    width: 70%;
+    float: left;
+    margin-left: 15px;
 }
+aside{
+    float: right;
+    width: 25%;
+    margin-top: 150px;
+    margin-right: 15px;
+    background-color:#FFFF6D;
+    padding:none;
+}
+
