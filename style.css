@@ -18,15 +18,8 @@ body{
     font-weight: bold;
     bottom: 0px;
     clear: both;
-
 }
-article{
-    border: 3px solid;
-}
-aside,section{
-    border: 3px solid;
-}
-.float{
+.main{
     margin-top: 150px;
     width: 70%;
     float: left;
@@ -66,4 +59,15 @@ aside{
     position: absolute;
     top: 175px;
     left: 50px;
+}
+.margem{
+    width: 80%;
+    margin: auto;
+}
+.bloco{
+   
+    width: 40%;
+    display:inline-block;
+    text-align: center;
+   
 }
