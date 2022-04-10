@@ -1,74 +1,75 @@
-body{
+body {
     background-color: rgb(253,251,251);
     margin: 0%;
 }
-#cabecalho{
+#cabecalho {
     top: 0px;
     position: fixed;
     border: 3px solid;
-    width:100%;
+    width: 100%;
     background-color: slateblue;
     text-align: center;
-    z-index:1 ;
+    z-index: 1 ;
 }
-#rodape{
-    border: 3px solid;
-    background-color: slateblue;
-    text-align: center;
-    font-weight: bold;
-    bottom: 0px;
-    clear: both;
-}
-.main{
+.main {
     margin-top: 150px;
     width: 70%;
     float: left;
     margin-left: 15px;
-}
-aside{
-    float: right;
-    width: 25%;
-    margin-top: 150px;
-    margin-right: 15px;
-    background-color:#FFFF6D;
     text-align: center;
 }
-.margem-aside ol li{
-    padding: 10px 20px;
-    font-weight: bold;
-}
-.imagem-denis{
+.imagem-denis {
     background-image: url(./275944677_663767221500016_1873905186283448054_n.jpg);
     background-size: cover;
     background-position: 5% 15%;
     padding: 50px 50px 80px 520px;
     display: inline-block;
 }
-.texto-imagem{
+.texto-imagem {
     width: 60%;
     text-align: center;
     font-weight: bold;
 }
-.contato{
+.contato {
     width: 10%;
     text-align: center;
     font-weight: bold;
-    font-size:larger;
+    font-size: larger;
     line-height: 25px;
     width: 150px;
     position: absolute;
     top: 175px;
     left: 50px;
 }
-.margem{
+.alinhamento {
+    text-align: center;
+}
+.margem {
     width: 80%;
     margin: auto;
 }
-.bloco{
+.bloco {
     width: 40%;
-    display:inline-block;
+    display: inline-block;
     text-align: center;
 }
-.alinhamento{
+aside {
+    float: right;
+    width: 25%;
+    margin-top: 150px;
+    margin-right: 15px;
+    background-color: #ffff6d;
     text-align: center;
+}
+.margem-aside ol li {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+#rodape {
+    border: 3px solid;
+    background-color: slateblue;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0px;
+    clear: both;
 }
