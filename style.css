@@ -1,5 +1,5 @@
 body {background-color: rgb(253, 251, 251);
-margin: 0%;
+  margin: 0%;
 }
 
 #cabecalho {
@@ -21,7 +21,7 @@ text-align: center;
 }
 
 .imagem-denis {
-background-image: url("./275944677_663767221500016_1873905186283448054_n.jpg");
+background-image: url('./275944677_663767221500016_1873905186283448054_n.jpg');
 background-size: cover;
 background-position: 5% 15%;
 padding: 50px 50px 80px 520px;
