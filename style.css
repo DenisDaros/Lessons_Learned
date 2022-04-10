@@ -1,14 +1,16 @@
 body {background-color: rgb(253,251,251);
 margin: 0%;
 }
-#cabecalho {top: 0px;position: fixed;
+#cabecalho {
+top: 0px;position: fixed;
 border: 3px solid;
 width: 100%;
 background-color: slateblue;
 text-align: center;
 z-index: 1 ;
 }
-.main {margin-top: 150px;
+.main {
+margin-top: 150px;
 width: 70%;
 float: left;
 margin-left: 15px;
@@ -21,10 +23,12 @@ background-position: 5% 15%;
 padding: 50px 50px 80px 520px;
 display: inline-block;
 }
-.texto-imagem {width: 60%;text-align: center;
+.texto-imagem {
+width: 60%;text-align: center;
 font-weight: bold;
 }
-.contato {width: 10%;text-align: center;
+.contato {
+width: 10%;text-align: center;
 font-weight: bold;
 font-size: larger;
 line-height: 25px;
@@ -33,24 +37,30 @@ position: absolute;
 top: 175px;
 left: 50px;
 }
-.alinhamento {text-align: center;
-}
-.margem {width: 80%;margin: auto;
-}
-.bloco {width: 40%;display: inline-block;
+.alinhamento {
 text-align: center;
 }
-aside {float: right;
+.margem {
+width: 80%;margin: auto;
+}
+.bloco {
+width: 40%;display: inline-block;
+text-align: center;
+}
+aside {
+float: right;
 width: 25%;
 margin-top: 150px;
 margin-right: 15px;
 background-color: #ffff6d;
 text-align: center;
 }
-.margem-aside ol li {padding: 10px 20px;
+.margem-aside ol li {
+padding: 10px 20px;
 font-weight: bold;
 }
-#rodape {border: 3px solid;
+#rodape {
+border: 3px solid;
 background-color: slateblue;
 text-align: center;
 font-weight: bold;
