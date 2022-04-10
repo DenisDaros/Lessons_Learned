@@ -54,10 +54,4 @@ aside {float: right;
 .margem-aside ol li {padding: 10px 20px;
     font-weight: bold;
 }
-#rodape {border: 3px solid;
-    background-color: slateblue;
-    text-align: center;
-    font-weight: bold;
-    bottom: 0px;
-    clear: both;
-}
+#rodape {border: 3px solid;background-color: slateblue;text-align: center;font-weight: bold;bottom: 0px;clear: both;}
